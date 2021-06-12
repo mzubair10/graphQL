@@ -2,12 +2,29 @@
 	"users": [{
 			"id": "10",
 			"firstName": "Bill",
-			"age": 20
+			"age": 20,
+			"companyId": "1"
 		},
 		{
 			"id": "20",
 			"firstName": "Sam",
-			"age": 30
+			"age": 30,
+			"companyId": "2"
+		},
+		{
+			"id": "30",
+			"firstName": "Raj",
+			"age": 60,
+			"companyId": "2"
 		}
-	]
+	],
+	"companies": [{
+		"id": "1",
+		"name": "Intel",
+		"description": "CPU & Hardware"
+	}, {
+		"id": "2",
+		"name": "Apple",
+		"description": "IPhone"
+	}]
 }
